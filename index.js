@@ -43,5 +43,6 @@ http.listen(4000, function () {
 });
 
 const logState = () => {
+    return;
     console.dir(state);
 };
